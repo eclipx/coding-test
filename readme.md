@@ -12,22 +12,17 @@ The purpose of this challenge is to evaluate your knowledge and skills in fullst
     - Utilize flexbox as much as possible
 
 # Criteria
-1. Create API endpoint to return product list, refer to [product list](data/products.json)
-2. Create **extendable** API discount logic with the following initials:
-    - A customer who has cart total over $1000, gets a discount of 10% on the whole order.
-    - For category "2", when you buy five, you get sixth for free
-    - For category "1", you will get 20% discount on cheapest product
-3. SPA checkout application, with the following features:
-    - Add line item button
-    - Product selection
-    - Quantity input
-    - Total $ amount per line item
-    - Cart Total 
+1. Create SPA Progressive Web Application:
+    - Simple Login Screen via freeTier of Auth0/Okta/Firebase
+    - Authenticated Pages with:
+        - Input box integrated with Google Places API
+        - Upon list selection,
+            - Show google map with directions from current
+            ocation to the selected location
 
 # Acceptance Criteria
-1. SPA fetching product data via API
-2. App is easy to install and run locally
-3. Code Quality
+1. App is easy to install and run locally
+2. Code Quality
     - Your code must be clean, well-structured, commented and easy to understand
 
 # Bonus Point
@@ -42,4 +37,5 @@ The purpose of this challenge is to evaluate your knowledge and skills in fullst
 # Rules
 It's all about the the result, but here are few rules:
 - Feel free to use any 3rd party library you like
-- It's encouraged to look for any inspirations, **BUT** if you are taking the lazy route of copy and pasting from Internet, We'll know!
+- Elaborate your selection of 3rd party tools/libraries and coding principle you apply in your code
+- Your code must be able to be compiled by us to review the app

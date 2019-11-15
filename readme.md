@@ -9,8 +9,7 @@ The purpose of this challenge is to evaluate your knowledge and skills in fullst
 # Goal
 
 1. Create a new repo in any public repo you like (Github/Gitlab/Bitbucket), as long as you can share it with us.
-2. Create NodeJS API to handle few checkout calculation logic
-3. Create SPA with (React.js / Vue.js) for a simple checkout page
+2. Create SPA with (React.js / Vue.js) for a simple checkout page
    - Utilize flexbox as much as possible
 
 # Criteria
@@ -21,7 +20,7 @@ The purpose of this challenge is to evaluate your knowledge and skills in fullst
      - Input box integrated with Google Places API
      - Upon list selection,
        - Show google map with directions from current
-         ocation to the selected location
+         location to the selected location
 
 # Acceptance Criteria
 

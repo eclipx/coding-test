@@ -11,16 +11,25 @@ The purpose of this challenge is to evaluate your knowledge and skills in fullst
 1. Create a new repo in any public repo you like (Github/Gitlab/Bitbucket), as long as you can share it with us.
 2. Create SPA with (React.js / Vue.js) for a simple checkout page
    - Utilize flexbox as much as possible
+3. Create an API endpoint in Node.js
 
 # Criteria
 
 1. Create SPA Progressive Web Application:
+
    - Simple login screen via freeTier of Auth0/Okta/Firebase
    - Authenticated page with:
      - Input box integrated with Google Places API
      - Upon list selection,
        - Show google map with directions from current
          location to the selected location
+
+2. Create a simple API call based on role of the user
+
+   - Create admin user and read only user in the firebase auth
+   - Based on the user role (admin)
+     - response 200 for path /api/admin_only
+     - response 401 for path /api/admin_only for readonly user
 
 # Acceptance Criteria
 
@@ -32,6 +41,7 @@ The purpose of this challenge is to evaluate your knowledge and skills in fullst
 
 - UX - your app is easy to use and working well
 - UI - your app looking clean and great
+- API - your app is functioning as per the requirement
 - CI pipeline, i.e: eslint, prettier
 - Deployed somewhere
 - Unit tested

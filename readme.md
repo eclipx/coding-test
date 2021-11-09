@@ -8,9 +8,9 @@ The purpose of this challenge is to evaluate your knowledge and skills in fullst
 
 # Goal
 
-1. Create a new repo in any public repo you like (Github/Gitlab/Bitbucket), as long as you can share it with us.
-2. Create SPA with (React.js / Vue.js) for a simple checkout page
-   - Utilize flexbox as much as possible
+1. Create a new repo in any public repo you like (Github / Gitlab / Bitbucket), as long as you can share it with us.
+2. Create SPA with Vue.JS (preferred) or any of your choice for a simple map direction page
+   - Utilize modern css technologies as much as possible
 3. Create an API endpoint in Node.js
 
 # Criteria
@@ -34,7 +34,7 @@ The purpose of this challenge is to evaluate your knowledge and skills in fullst
 # Acceptance Criteria
 
 1. App is easy to install and run locally
-2. Code Quality
+2. Code quality
    - Your code must be clean, well-structured, commented and easy to understand
 
 # Bonus Point
@@ -43,8 +43,8 @@ The purpose of this challenge is to evaluate your knowledge and skills in fullst
 - UI - your app looking clean and great
 - API - your app is functioning as per the requirement
 - CI pipeline, i.e: eslint, prettier
-- Deployed somewhere
-- Unit tested
+- Deployed in any free JAM stack i.e: netlify / firebase
+- Unit test
 - Webpack / tree shaking
 - Readme on code design, 3rd party library and the use in your app
 
